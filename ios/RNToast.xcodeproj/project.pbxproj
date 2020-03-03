@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		327633601BFAAE28004DA88E /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276335D1BFAAE28004DA88E /* Toast.m */; };
-		327633611BFAAE28004DA88E /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276335F1BFAAE28004DA88E /* Toast+UIView.m */; };
+		CEF99DF2240E9B3B00E06BDE /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99DF0240E9B3B00E06BDE /* Toast+UIView.m */; };
+		CEF99DF3240E9B3B00E06BDE /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99DF1240E9B3B00E06BDE /* Toast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		327633401BFAAD7E004DA88E /* CopyFiles */ = {
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		327633421BFAAD7E004DA88E /* libRCTToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3276335D1BFAAE28004DA88E /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
-		3276335E1BFAAE28004DA88E /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
-		3276335F1BFAAE28004DA88E /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF99DEF240E9B3B00E06BDE /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		CEF99DF0240E9B3B00E06BDE /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		CEF99DF1240E9B3B00E06BDE /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3276333F1BFAAD7E004DA88E /* Frameworks */ = {
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,97 +41,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		327633391BFAAD7E004DA88E = {
+		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				327633441BFAAD7E004DA88E /* RCTToast */,
-				327633431BFAAD7E004DA88E /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		327633431BFAAD7E004DA88E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				327633421BFAAD7E004DA88E /* libRCTToast.a */,
+				134814201AA4EA6300B7C361 /* libRNToast.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		327633441BFAAD7E004DA88E /* RCTToast */ = {
+		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				3276335D1BFAAE28004DA88E /* Toast.m */,
-				3276335E1BFAAE28004DA88E /* Toast+UIView.h */,
-				3276335F1BFAAE28004DA88E /* Toast+UIView.m */,
+				CEF99DF1240E9B3B00E06BDE /* Toast.m */,
+				CEF99DEF240E9B3B00E06BDE /* Toast+UIView.h */,
+				CEF99DF0240E9B3B00E06BDE /* Toast+UIView.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
 			);
-			path = RCTToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		327633411BFAAD7E004DA88E /* RCTToast */ = {
+		58B511DA1A9E6C8500147676 /* RNToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 327633561BFAAD7E004DA88E /* Build configuration list for PBXNativeTarget "RCTToast" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNToast" */;
 			buildPhases = (
-				3276333E1BFAAD7E004DA88E /* Sources */,
-				3276333F1BFAAD7E004DA88E /* Frameworks */,
-				327633401BFAAD7E004DA88E /* CopyFiles */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RCTToast;
-			productName = RCTToast;
-			productReference = 327633421BFAAD7E004DA88E /* libRCTToast.a */;
+			name = RNToast;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNToast.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3276333A1BFAAD7E004DA88E /* Project object */ = {
+		58B511D31A9E6C8500147676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = remobile;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
-					327633411BFAAD7E004DA88E = {
-						CreatedOnToolsVersion = 6.4;
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 3276333D1BFAAD7E004DA88E /* Build configuration list for PBXProject "RCTToast" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNToast" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 327633391BFAAD7E004DA88E;
-			productRefGroup = 327633431BFAAD7E004DA88E /* Products */;
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				327633411BFAAD7E004DA88E /* RCTToast */,
+				58B511DA1A9E6C8500147676 /* RNToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3276333E1BFAAD7E004DA88E /* Sources */ = {
+		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327633611BFAAE28004DA88E /* Toast+UIView.m in Sources */,
-				327633601BFAAE28004DA88E /* Toast.m in Sources */,
+				CEF99DF3240E9B3B00E06BDE /* Toast.m in Sources */,
+				CEF99DF2240E9B3B00E06BDE /* Toast+UIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		327633541BFAAD7E004DA88E /* Debug */ = {
+		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -149,11 +141,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -166,12 +156,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../react-native/React/**",
-					"$(SRCROOT)/../../../../node_modules/react-native/React/**",
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -179,7 +163,7 @@
 			};
 			name = Debug;
 		};
-		327633551BFAAD7E004DA88E /* Release */ = {
+		58B511EE1A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,24 +180,16 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../react-native/React/**",
-					"$(SRCROOT)/../../../../node_modules/react-native/React/**",
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -221,28 +197,34 @@
 			};
 			name = Release;
 		};
-		327633571BFAAD7E004DA88E /* Debug */ = {
+		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNToast;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		327633581BFAAD7E004DA88E /* Release */ = {
+		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNToast;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -250,25 +232,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3276333D1BFAAD7E004DA88E /* Build configuration list for PBXProject "RCTToast" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				327633541BFAAD7E004DA88E /* Debug */,
-				327633551BFAAD7E004DA88E /* Release */,
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		327633561BFAAD7E004DA88E /* Build configuration list for PBXNativeTarget "RCTToast" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				327633571BFAAD7E004DA88E /* Debug */,
-				327633581BFAAD7E004DA88E /* Release */,
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3276333A1BFAAD7E004DA88E /* Project object */;
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
 }
